@@ -8,7 +8,7 @@ interface CallAPIProps {
   servicesPath: string;
   url?: string;
   type?: string;
-  params?: Record<string, unknown>;
+  params?: Record<string, any>;
   headers?: Record<string, string>;
   baseURL?: string;
 }
